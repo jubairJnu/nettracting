@@ -7,12 +7,15 @@
     <title>Nettracking</title>
   </head>
   <body class="bg-[#12141D] container w-full max-w-7xl mx-auto px-5">
-    <header class="py-4">
-      <nav class="flex flex-col md:flex-row items-center justify-between">
+    <header class="py-4 w-full fixed top-0 left-0 w-full bg-[#12141D] z-50">
+      <!-- navbar here -->
+      <nav
+        class="flex items-center justify-between w-full max-w-7xl mx-auto p-4"
+      >
         <div class="flex items-center gap-20">
           <h1 class="text-lg font-semibold text-white">Nettracking</h1>
           <!--  -->
-          <div class="">
+          <div class="hidden md:inline-block">
             <ul class="flex flex-col md:flex-row gap-9 text-white">
               <li class="font-semibold">Pricing</li>
               <li class="font-light">How it works</li>
@@ -22,13 +25,131 @@
           </div>
         </div>
         <!-- button -->
-        <div class="">
+        <div class="hidden md:inline-block">
           <button class="text-white bg-[#1D1F29] px-4 py-1 me-4">
             Sign in
           </button>
           <button class="bg-white px-4 py-1">Sign up</button>
         </div>
+
+        <p class="md:hidden pe-2">
+          <img src="./public/burger.png" alt="menu" />
+        </p>
       </nav>
     </header>
+
+    <!-- header section -->
+    <section class="mt-24">
+      <div class="w-full max-w-[590px] mx-auto">
+        <h1 class="text-[41px] font-bold text-white text-center">
+          Content marketing solution &
+          <p>idea of your business</p>
+        </h1>
+        <p
+          class="w-full max-w-[464px] mx-auto text-[20px] text-center text-[#87888D] mt-4"
+        >
+          Nettracking is a content marketing solution that tracks the
+          effectiveness of your blog,
+        </p>
+        <!-- button -->
+        <div class="flex gap-4 justify-center mx-auto mt-5">
+          <button
+            class="bg-[#FF664F] text-white flex items-center gap-2 py-3 px-8 rounded-md"
+          >
+            Explore Platform
+            <img src="./public/forward.png" alt="forward" />
+          </button>
+          <button class="bg-[#22222B] text-white py-3 px-8 rounded-md">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- main -->
+    <main>
+      <!-- key feature -->
+      <section class="mt-24">
+        <div class="w-full max-w-[522px] mx-auto">
+          <h1 class="text-[42px] font-bold text-center text-white">
+            Key features
+          </h1>
+          <p class="text-[#808188] text-[18px] mt-4 text-center">
+            NetTracking™ has quickly become the go-to content marketing solution
+            for over 600 clients around the world
+          </p>
+        </div>
+
+        <!-- card div -->
+
+        <div class="bg-[#1E2029] mt-24 p-2 md:py-20 md:px-24 rounded-xl">
+          <!-- grid -->
+          <div
+            class="grid grid-cols-2 md:grid-cols-3 justify-items-center gap-x-2 gap-y-5 md:gap-28"
+          >
+            <div class="w-[160px] md:w-[250px]">
+              <img src="./public/real.png" alt="real-img" />
+              <h3 class="md:text-lg text-white font-semibold mt-6 mb-2">
+                Real-Time Email Alerts
+              </h3>
+              <p class="text-[#696B76]">
+                NetTracking" is a very powerful Web 2.0 site search engine
+                allows you to find email allerts
+              </p>
+            </div>
+            <div class="w-[160px] md:w-[250px]">
+              <img src="./public/monitor.png" alt="monitor" />
+              <h3 class="md:text-lg text-white font-semibold mt-6 mb-2">
+                Monitor Inbound Traffic
+              </h3>
+              <p class="text-[#696B76]">
+                The biggest challenge for marketers is being heard inbound
+                traffice in market.
+              </p>
+            </div>
+            <div class="w-[160px] md:w-[250px]">
+              <img src="./public/track.png" alt="tract" />
+              <h3 class="md:text-lg text-white font-semibold mt-6 mb-2">
+                Track Multiple Sites
+              </h3>
+              <p class="text-[#696B76]">
+                Nettracking gives you an innovative web-based tool that manages
+                multiple sites
+              </p>
+            </div>
+            <div class="w-[160px] md:w-[250px]">
+              <img src="./public/aggregate.png" alt="aggregate" />
+              <h3 class="md:text-lg text-white font-semibold mt-6 mb-2">
+                Aggregate Statistics
+              </h3>
+              <p class="text-[#696B76]">
+                filters and reports on your website's search engine ranking
+                results.
+              </p>
+            </div>
+            <div class="w-[160px] md:w-[250px]">
+              <img src="./public/edit.png" alt="edit" />
+              <h3 class="md:text-lg text-white font-semibold mt-6 mb-2">
+                Edit Exclude
+              </h3>
+              <p class="text-[#696B76]">
+                In short, nettracking gives you the information that allows you
+                to changes in your website's ranking
+              </p>
+            </div>
+            <div class="w-[160px] md:w-[250px]">
+              <img src="./public/easy.png" alt="easy" />
+              <h3 class="md:text-lg text-white font-semibold mt-6 mb-2">
+                Easy To Implement
+              </h3>
+              <p class="text-[#696B76]">
+                accurately track organic (or natural) search engine movement
+                over time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
